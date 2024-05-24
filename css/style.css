@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header-container{
+    background-color: rgba(93, 204, 255, 0.788);
+    height: 70px;
+    padding-top: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.head-col20{
+    width: 20%;
+    height: 50px;
+    border: 2px dashed black;
+    height: 40px;
+    background-color: rgb(230, 157, 0);
+    align-content: center;
+    padding-left: 10px;
+}
+.right{
+    text-align: right;
+    padding-right: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.head-col60{
+    width: 60%;
+    height: 100%;
+    border: 2px dashed black;;
+    height: 40px;
+    background-color: rgb(230, 157, 0);
+    align-content: center;
+}
